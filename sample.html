@@ -1,0 +1,113 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Order Custom Cake</title>
+        <link rel="stylesheet" href="sample.css">
+    </head>
+    <body>
+        <header>
+            <h1>John's Cake Shop</h1>
+        </header>
+        <div class="image-row">
+            <div class="image-item">
+                <img src="Blackforest_600.png" alt="Black Forest Cake">
+                <h1>Black Forest Cake</h1>
+                <p class="price">₱850.00</p>
+            </div>
+            <div class="image-item">
+                <img src="chocolstr caramel.jpg" alt="Chocolate Caramel Cake">
+                <h1>Chocolate Caramel Cake</h1>
+                <p class="price">₱550.00</p>
+            </div>
+            <div class="image-item">
+                <img src="cherry.png" alt="Chocolate Cherry Torte">
+                <h1>Chocolate Cherry Torte</h1>
+                <p class="price">₱730.00</p>
+            </div>
+            <div class="image-item">
+                <img src="Chocomousse_600.png" alt="Chocolate Mousse">
+                <h1>Chocolate Mousse</h1>
+                <p class="price">₱680.00</p>
+            </div>
+            <div class="image-item">
+                <img src="ClassicSansrival_600.png" alt="ClassicSansrival_600">
+                <h1>Classic Sansrival</h1>
+                <p class="price">₱560.00</p>
+            </div>
+            <div class="image-item">
+                <img src="Royalfudgetobleron_600.png" alt="Royal Fudge">
+                <h1>Royal Fudge Cake</h1>
+                <p class="price">₱750.00</p>
+            </div>
+            <div class="image-item">
+                <img src="mangodream.png" alt="mangodream">
+                <h1>Mango Dream</h1>
+                <p class="price">₱640.00</p>
+            </div>
+            <div class="image-item">
+                <img src="Ube Dream_3_600.jpg" alt="Ubedream">
+                <h1>Ube Dream</h1>
+                <p class="price">₱640.00</p>
+            </div>
+            <div class="image-item">
+                <img src="Coffee Layered Crunch Corpo_600.png" alt="Coffeelayered">
+                <h1>Coffee Layered</h1>
+                <p class="price">₱720.00</p>
+            </div>
+
+        </div>
+        
+        <div class="container">
+            <h1>Order Your Cake</h1>
+            <form>
+                <label for="flavor">Choose Cake Flavor:</label>
+                <select id="flavor" name="flavor" required>
+                    <option value="">-- Select Flavor --</option>
+                    <option value="Black Forest Cake">Black Forest Cake</option>
+                    <option value="chocolate caramel">Chocolate Caramel</option>
+                    <option value="Chocolate Cherry Torte">Chocolate Cherry Torte</option>
+                    <option value="Chocolate Mousse">Chocolate Mousse</option>
+                    <option value="Classic Sansrival">Classic Sansrival</option>
+                    <option value="Royal Fudge Cake">Royal Fudge Cake</option>
+                    <option value="Mango Dream">Mango Dream</option>
+                    <option value="Ube Dream">Ube Dream</option>
+                    <option value="Coffee Layered Crunch">Coffee Layered Crunch</option>
+                </select>
+
+                <label for="size">Choose Cake Size:</label>
+                <select id="size" name="size" required>
+                    <option value="">-- Select Size --</option>
+                    <option value="small">Small (6 inches)</option>
+                    <option value="medium">Medium (8 inches)</option>
+                    <option value="large">Large (10 inches)</option>
+                </select>
+
+                <label for="design">Describe Your Cake Design:</label>
+                <textarea id="design" name="design" rows="4" placeholder="Describe the design you want..." required></textarea>
+
+                <label for="contact">Your Contact Information:</label>
+                <input type="text" id="contact" name="contact" placeholder="Enter your name" required>
+                <input type="text" id="contact" name="contact" placeholder="Enter your phone number" required>
+
+                <button type="submit">Submit Order</button>
+
+                <div class="opening-hours">
+                    <p>Opening Hours: Monday - Saturday, 8 AM - 5 PM</p>
+                </div>
+            </form>
+        </div>
+        <footer>
+            
+            <p>Contact Information: John CakeShop</p>
+            <p>Phone: +63 912 345 6789</p>
+            <p>Email: john@gmail.com</p>
+            <p>Follow us: 
+                <a href="https://www.facebook.com/jesebelleruiz.castillo.9" target="_blank">Facebook</a> |
+                <a href="https://www.instagram.com/why.jese/profilecard/?igsh=cW1jaGM4MmJpY3J5" target="_blank">Instagram</a>
+            </p>
+            <p>&copy; 2024 Cake Heaven Bakery | All Rights Reserved</p>
+        </footer>
+    </body>
+    </html>
